@@ -4,3 +4,19 @@ while (count <= 10) {
     count += 1;
 }
 console.log(total);
+
+// or
+
+//console.log(sum(range(1, 10)));
+// → 55
+
+function factorial(n) {
+    if (n == 0) {
+        return 1;
+    } else {
+        return factorial(n - 1) * n;
+    }
+}
+
+console.log(factorial(8));
+// → 40320
